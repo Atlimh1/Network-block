@@ -1,5 +1,5 @@
 {
-    "mode": "blacklist",
+    "mode": "whitelist",
     "schedule_enabled": false,
     "schedule_data": {
         "Mon,0": 1,
@@ -425,10 +425,10 @@
             "Thu,9": 0,
             "Thu,10": 0,
             "Thu,11": 0,
-            "Thu,12": 0,
-            "Thu,13": 0,
-            "Thu,14": 0,
-            "Thu,15": 0,
+            "Thu,12": 2,
+            "Thu,13": 1,
+            "Thu,14": 1,
+            "Thu,15": 1,
             "Thu,16": 0,
             "Thu,17": 0,
             "Thu,18": 0,
