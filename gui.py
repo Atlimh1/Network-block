@@ -1,5 +1,7 @@
 import sys
 import json
+import subprocess
+import os
 from PyQt5.QtWidgets import (
     QApplication, QWidget, QVBoxLayout, QPushButton, QLabel, QCheckBox,
     QMessageBox, QDialog, QHBoxLayout, QGroupBox, QListWidget, QListWidgetItem,
@@ -281,6 +283,7 @@ class MainWindow(QWidget):
         self.mode_button.setText(
             f"Switch to {'Whitelist' if self.mode == 'blacklist' else 'Blacklist'} Mode"
         )
+        subprocess.Popen(["python3", os.path.join(APP_DIR, "main.py"), "--check"])
         self.save_settings()
 
     def open_detailed_schedule(self):
