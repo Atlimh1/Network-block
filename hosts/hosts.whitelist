@@ -1,0 +1,7 @@
+# Block everything by default
+0.0.0.0 google.com
+0.0.0.0 facebook.com
+0.0.0.0 youtube.com
+# Add exceptions below
+127.0.0.1 myschool.edu
+127.0.0.1 khanacademy.org
